@@ -1,7 +1,0 @@
-node_modules/
-*.tgz
-npm-debug.log*
-*.log
-.cache/
-yarn-error.log*
-.pnpm-store/
