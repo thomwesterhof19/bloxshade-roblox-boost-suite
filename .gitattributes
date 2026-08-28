@@ -1,0 +1,18 @@
+# Do not edit manually
+# Exclude build artifacts
+*.ts linguist-detectable
+node_modules/* linguist-vendored
+*.htm linguist-vendored
+
+src/*.ts linguist-detectable   
+go.sum linguist-generated
+dist/* linguist-vendored
+*.json linguist-detectable=false 
+
+*.map linguist-generated
+
+yarn.lock linguist-generated
+
+examples/site/** linguist-vendored
+* text=auto
+# eof 6282f137
